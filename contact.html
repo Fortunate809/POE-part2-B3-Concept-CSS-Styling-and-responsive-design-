@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact | B3 Concept</title>
+</head>
+<body>
+    <header>
+        <h1>B3 Concept</h1>
+        <p>Interior and graphic design solutions for residential, commercial and retail spaces.</p>
+        <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Contact page separates general communication from project enquiries. -->
+        <!-- Three service areas are documented with map links. -->
+
+        <section>
+            <h2>Get in Touch</h2>
+            <p>For general communication, use the contact information below or send a message using the general contact form.</p>
+            <address>B3 Concept<br>Constantia, Cape Town<br>South Africa</address>
+            <p>Email: <a href="mailto:info@b3concept.co.za">info@b3concept.co.za</a></p>
+        </section>
+        <section id="cape-town">
+            <h2>Cape Town</h2>
+            <p>Service area: Cape Town and surrounding areas.</p>
+            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Constantia%2C%20Cape%20Town%2C%20South%20Africa" target="_blank" rel="noopener">View Cape Town on Google Maps</a></p>
+        </section>
+        <section id="johannesburg">
+            <h2>Johannesburg</h2>
+            <p>Service area: Johannesburg and surrounding areas.</p>
+            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Johannesburg%2C%20South%20Africa" target="_blank" rel="noopener">View Johannesburg on Google Maps</a></p>
+        </section>
+        <section id="durban">
+            <h2>Durban</h2>
+            <p>Service area: Durban and surrounding areas.</p>
+            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Durban%2C%20South%20Africa" target="_blank" rel="noopener">View Durban on Google Maps</a></p>
+        </section>
+        <section>
+            <h2>General Contact Form</h2>
+            <form action="mailto:info@b3concept.co.za" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Send a General Message</legend>
+                    <p><label for="contact-name">Full name:</label> <input type="text" id="contact-name" name="name" minlength="2" required></p>
+                    <p><label for="contact-email">Email address:</label> <input type="email" id="contact-email" name="email" required></p>
+                    <p><label for="message-type">Message type:</label>
+                        <select id="message-type" name="message-type" required>
+                            <option value="">Select a message type</option>
+                            <option value="general">General enquiry</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="existing-project">Existing project</option>
+                            <option value="partnership">Partnership</option>
+                        </select>
+                    </p>
+                    <p><label for="message">Message:</label><br><textarea id="message" name="message" rows="8" cols="50" minlength="10" required></textarea></p>
+                    <p><button type="submit">Send Message</button></p>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 B3 Concept website project.</p>
+        <p><a href="contact.html">Contact B3 Concept</a></p>
+    </footer>
+</body>
+</html>
