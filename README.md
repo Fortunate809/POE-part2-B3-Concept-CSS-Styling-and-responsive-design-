@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32379202/README.md)
 # B3 Concept Website Project
 
 ## Student Information
